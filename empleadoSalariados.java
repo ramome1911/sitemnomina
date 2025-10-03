@@ -14,8 +14,7 @@ public class empleadoSalariados extends empleados {
     public void setAntiguedad(int antiguedad) {
         this.antiguedad = antiguedad;
     }
-}
-@Override
+    @Override
     public double calcularSalariobruto() {
         double bonoAntiguedad = 0;
         if (antiguedad > 5) {
@@ -24,6 +23,7 @@ public class empleadoSalariados extends empleados {
         } else {
             return salariobase;
         }
+
     }
     @Override
     public double calcularBeneficios() {
@@ -40,3 +40,4 @@ public class empleadoSalariados extends empleados {
                 + " salario mensual: " + calcularSalariobruto() + "\n"
                 + " deducciones: " + calcularDeducciones();
     }
+}
