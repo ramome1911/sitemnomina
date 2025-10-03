@@ -34,7 +34,7 @@ public class EmpleadoComision extends empleados {
 
     @Override
     public String mostrarInformacion() {
-        return "Empleado por Comisión: " + "\n" + " nombre: " + getNombre() + "\n"
+        return "Empleado por Comisión: " + "\n" + " nombre: " + getnombre() + "\n"
                 + " Salario Base: " + salariobase() + "\n"
                 + " Ventas Mensuales: " + ventasMensuales + "\n"
                 + " Beneficios: " + calcularBeneficios() + "\n"
